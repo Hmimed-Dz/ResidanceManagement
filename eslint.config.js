@@ -28,9 +28,6 @@ export default defineConfig([
     },
   },
 
-  // ✅ TypeScript ESLint recommended rules
   ...tseslint.configs.recommended,
-
-  // ✅ Prettier disables conflicting rules
   configPrettier,
 ]);
