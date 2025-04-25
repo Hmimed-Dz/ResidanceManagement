@@ -1,0 +1,28 @@
+.ant-layout-header{
+    background-color: white;
+    
+}
+
+#Container{
+    padding: 0px 0px !important;
+    position: relative;
+    top: 5rem;
+}
+.ant-layout{
+    background-color: white;
+   
+}
+
+#Content{
+    padding: 0px 24px;
+    /* min-height: 280px; */
+    background-color: #fafbfc;
+    height: 35rem;
+    
+
+}
+
+/* .ant-layout-sider{
+    min-width: 256px !important;
+} */
+

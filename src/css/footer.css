@@ -1,0 +1,8 @@
+.ant-layout-footer {
+    height: 5rem;
+    background: #155c4c;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }

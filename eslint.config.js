@@ -4,7 +4,6 @@ import pluginReact from 'eslint-plugin-react';
 import pluginPrettier from 'eslint-plugin-prettier';
 import configPrettier from 'eslint-config-prettier';
 import { defineConfig } from 'eslint/config';
-
 export default defineConfig([
   {
     ignores: ['node_modules/', 'dist/', 'build/'],
@@ -24,6 +23,7 @@ export default defineConfig([
     },
     rules: {
       ...pluginReact.configs.recommended.rules,
+      'react/react-in-jsx-scope': 'off',
       'prettier/prettier': 'error',
     },
   },
